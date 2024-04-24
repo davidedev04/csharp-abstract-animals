@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            List<Animale> animals = new List<Animale>();
+
+            animals.Add(new Cane());
+            animals.Add(new Passerotto());
+            animals.Add(new Aquila());
+            animals.Add(new Delfino());
+
+            foreach (Animale animale in animals)
+            {
+                animale.Dormi();
+                animale.Verso();
+                animale.Mangia();
+                
+            }
         }
     }
 }

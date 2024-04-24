@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Delfino
+    public class Delfino : Animale
     {
+        public override void Verso()
+        {
+            Console.Write("Il verso del delfino é IIIIIIIIIIIII");
+        }
+        public override void Mangia()
+        {
+            Console.WriteLine(" - Il delfino mangia non lo so");
+        }
     }
 }

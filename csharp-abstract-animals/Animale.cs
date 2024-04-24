@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Animale
+    public abstract class Animale
     {
         public Animale() { }
 
@@ -14,5 +14,8 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("Zzz");
         }
+
+        public abstract void Verso();
+        public abstract void Mangia();
     }
 }

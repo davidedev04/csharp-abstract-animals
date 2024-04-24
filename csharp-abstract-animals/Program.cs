@@ -12,6 +12,8 @@
             animals.Add(new Aquila());
             animals.Add(new Delfino());
 
+            
+
             foreach (Animale animale in animals)
             {
                 animale.Dormi();
